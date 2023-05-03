@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} p-10`}>{children}</body>
+      <body className={`${inter.className} p-10 antialiased`}>{children}</body>
     </html>
   )
 }
